@@ -1,5 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import slider1 from './images/slider1.jpeg'
+import Slider2 from './images/Slider2.jpg'
+import Slider3 from "./images/Slider3.jpg"
 
 const CarouselComponent = () => {
     return ( 
@@ -18,27 +20,25 @@ const CarouselComponent = () => {
         <Carousel.Item className="sliderHeight">
           <img
             className="d-block w-100"
-            src={slider1}
+            src={Slider3}
             alt="Second slide"
           />
   
           <Carousel.Caption>
-            <h3 className="sliderText">Second slide label</h3>
-            <p className="sliderText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3 className="sliderText">Our Students</h3>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="sliderHeight">
           <img
             className="d-block w-100"
-            src={slider1}
+            src={Slider2}
             alt="Third slide"
           />
   
           <Carousel.Caption>
-            <h3 className="sliderText">Third slide label</h3>
-            <p className="sliderText">
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3 className="sliderText">Our Campus</h3>
+           
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

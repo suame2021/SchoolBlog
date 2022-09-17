@@ -45,8 +45,8 @@ const NavbarComponent = () => {
                 <Container className='container-fluid' fluid>
                     <LinkContainer to="/">
                         <Navbar.Brand >
-                            <Image src={logo} className="navHead" />
-                            <p className="darkHeading navHead">{user}College Blog</p>
+                            {/* <Image src={logo} className="navHead" /> */}
+                            <p className="darkHeading navHead"> Welcome {user}</p>
                         </Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -70,11 +70,11 @@ const NavbarComponent = () => {
                                             Tutorials
                                         </p></Nav.Link>
                                     </LinkContainer>
-                                    <LinkContainer to="/redux">
+                                    {/* <LinkContainer to="/redux">
                                         <Nav.Link style={{ color: theme.foreground }}><p style={{ color: theme.foreground }}>
                                             Redux
                                         </p></Nav.Link>
-                                    </LinkContainer>
+                                    </LinkContainer> */}
                                     <NavDropdown title={user} id="basic-nav-dropdown">
 
                                         <LinkContainer to="/login" className="btn btn-danger text-white">

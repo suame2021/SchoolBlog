@@ -11,8 +11,7 @@ const FooterComponent = () => {
                     <div className='p-3'>
                         <img src={logo} style={{ maxWidth: '70px' }}  alt='Company Logo' />
                         <p className='text-light'>
-                            So this is a sample of a Foter in React JS and its fun to learn
-                            Coding in JSX
+                            
                         </p>
                     </div>
                 </Col>
@@ -22,8 +21,7 @@ const FooterComponent = () => {
                             Contact Us
                         </h3>
                         <p className='text-light'>
-                            So this is a sample of a Foter in React JS and its fun to learn
-                            Coding in JSX
+                            i am the best when it comes to latest news, you can contact me
                         </p>
                     </div>
                 </Col>

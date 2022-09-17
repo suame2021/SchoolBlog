@@ -41,12 +41,12 @@ const NavbarComponent = () => {
     return (
         <div>
             <Navbar expand="lg" style={{ background: theme.background, color: theme.foreground }}>
-                <button className="btn btn-outline-secondary" onClick={toggleTheme}>Toggle Mode</button>
+                {/* <button className="btn btn-outline-secondary" onClick={toggleTheme}>Toggle Mode</button> */}
                 <Container className='container-fluid' fluid>
                     <LinkContainer to="/">
                         <Navbar.Brand >
                             <Image src={logo} className="navHead" />
-                            <p className="darkHeading navHead">{user}'s React</p>
+                            <p className="darkHeading navHead">{user}College Blog</p>
                         </Navbar.Brand>
                     </LinkContainer>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

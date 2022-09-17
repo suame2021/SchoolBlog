@@ -11,8 +11,8 @@ const CarouselComponent = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3 className="sliderText">First slide label</h3>
-            <p className="sliderText">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3 className="sliderText">Our School Environment</h3>
+            <p className="sliderText"></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="sliderHeight">
